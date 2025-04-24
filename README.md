@@ -13,3 +13,9 @@ secure-chat-app/
 ├── go.mod                  
 ├── go.sum                  
 └── README.md               # This doc
+
+### Tools
+net: to open TCP sockets.		
+crypto/tls: to encrypt communication with TLS.		
+bufio: for buffered input/output.		
+Self-signed certificate (for local TLS).		
