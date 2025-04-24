@@ -4,6 +4,7 @@
 Build a client-server chat app over TCP, encrypted with SSL/TLS.
 
 ### Repository Structure
+```
 secure-chat-app/
 ├── certs/                  # SSL/TLS certificates and keys
 │   ├── server.crt          # Server's SSL certificate
@@ -13,6 +14,7 @@ secure-chat-app/
 ├── go.mod                  
 ├── go.sum                  
 └── README.md               # This doc
+```
 
 ### Tools
 net: to open TCP sockets.		
